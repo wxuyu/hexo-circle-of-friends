@@ -114,6 +114,9 @@ GENERATE_SUMMARY: {
   bigmodel: {
     models: [
       "glm-4-Flash-250414",
+      "glm-4-Flash",
+      "glm-4-9B",
+      "glm-4.5-Flash",
       "glm-4.6v-flash",
       "glm-4.7-Flash"
     ]
