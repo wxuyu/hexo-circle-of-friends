@@ -98,21 +98,22 @@ GENERATE_SUMMARY: {
   # 以下列出的是其中的免费模型，你也可以去官方文档寻找并添加付费模型：https://cloud.siliconflow.cn/me/models
   siliconflow: {
     models: [
-      "THUDM/GLM-4.1V-9B-Thinking",
       "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B", 
       "Qwen/Qwen3-8B",
       "THUDM/GLM-Z1-9B-0414",
       "THUDM/GLM-4-9B-0414",
       "Qwen/Qwen2.5-7B-Instruct",
-      "internlm/internlm2_5-7b-chat",
-      "THUDM/glm-4-9b-chat"
+      "THUDM/glm-4-9b-chat",
+      # 限免模型
+      "tencent/Hunyuan-MT-7B",
+      "deepseek-ai/DeepSeek-OCR",
     ]
   },
   # 智谱（bigmodel）
   # 以下列出的是其中的免费模型，你也可以去官方文档寻找并添加付费模型：https://docs.bigmodel.cn/cn/guide/models/text/glm-4.5
   bigmodel: {
     models: [
-      "glm-4-Flash-25041",
+      "glm-4-Flash-250414",
       "glm-4.6v-flash",
       "glm-4.7-Flash"
     ]
