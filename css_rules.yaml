@@ -291,8 +291,8 @@ link_page_rules:
       },
     Clarity:
       {
-        author: [{ selector: ".author", attr: "text" }],
-        link: [{ selector: ".gradient-card", attr: "href" }],
-        avatar: [{ selector: ".round-cobblestone", attr: "src" }],
+        author: [{ selector: ".avatar.author", attr: "text" }],
+        link: [{ selector: ".feed-card.feed-card", attr: "href" }],
+        avatar: [{ selector: ".feed-card.avatar", attr: "src" }],
       },
   }
